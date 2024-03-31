@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box" data-createdBy="Aditya"data-sortedBy="ADI">hey i am a box</div>
+        <script>
+    let div = document.createElement ( "div");
+           /* div.innerHTML ="i have been inserted <b>by aditya </b>";
+            div.setAttribute("class","created")
+            document.querySelector(".container")//
+            document.body.append(div)
+            document.body.before(div)
+            document.body.after(div)
+            document.body.prepend(div)
+            insert adjecent in html */
+            let cont = document.querySelector('.container');
+            cont.insertAdjacentHTML("beforebegin" ,"<b> i am under the water, hey, please4 help ,meeee!!!!!</b>");
+
+        </script>
+    </div>
+</body>
+</html>

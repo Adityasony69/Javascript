@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card in html </title>
+    <style>
+        .card {
+            display: flex;
+            border: 8px solid rgb(62, 12, 77);
+            width: 1200px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image img {
+            display: flex;
+            height: 400px;
+            width: 600px;
+
+        }
+
+        .text h1 {
+            padding: 0px 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-style: oblique;
+            font-variant: small-caps;
+            font-display: block;
+            color: darkcyan;
+        }
+
+        .text p {
+            padding: px 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-style: oblique;
+            font-variant: small-caps;
+            font-display: block;
+            color: rgb(31, 121, 98);
+            font-size: large;
+        }
+
+        .text p1 {
+            font-family: initial;
+            color: rgb(27, 78, 99);
+            font-style: italic;
+            font-size: large;
+            font-variant: initial;
+        }
+        .capsule{
+            border: 2px solid rgb(0, 255, 0) ;
+            height: min-content;
+            background-color: rgba(62, 250, 72, 0.637);
+            margin: 5px;
+            text-align: left;
+            width: 40px;
+            position: fixed;
+             top:  50%;
+             left:  550px;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="image">
+                <img src="Capture.PNG">
+                <div class="capsule">24:06</div>
+            </div>
+            <div class="text">
+                <h1>Jojo's Bizarre Advanture</h1>
+                <p>Anime . Advanture . 4 Seasons</p>
+                <p>
+                    "JoJo's Bizarre Adventure" is a long-running manga series written and illustrated by Hirohiko Araki.
+                    It was first serialized in Weekly Shonen Jump in 1987 and has since become one of the most
+                    influential and well-known manga series in the world. The series is divided into multiple parts,
+                    each following a different member of the Joestar family and their descendants as they encounter
+                    various supernatural phenomena and villains.</p>
+                <p1>The series is characterized by its unique art style, intricate plots, and a wide array of characters
+                    with unique abilities called "Stands," which are manifestations of a character's spirit and can
+                    range from simple to incredibly complex powers.</p>
+            </div>
+        </div>
+    </div>
+    <script src="card.js">
+
+    </script>
+</body>
+
+</html>
